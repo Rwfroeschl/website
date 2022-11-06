@@ -1,0 +1,46 @@
+h1
+{
+	color: orange;
+	text-align: center;
+	font-size: 30pt;
+	border-style: solid;
+	border-color: orange;
+}
+body
+{
+	background-color:black;
+}
+
+a
+{
+	display: block;
+	text-align: center;
+	font-size: 22pt;
+	color: white;
+	cursor: pointer;
+}
+a:link
+{
+	color: yellow;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: cyan;
+	text-decoration: underline;
+}
+
+div {
+	border-style: solid;
+	border-color: orange;
+	animation-name: color_change;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+@keyframes color_change {
+	from { background-color: orange; }
+	to { background-color: red; }
+}
+
