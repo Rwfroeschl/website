@@ -1,0 +1,33 @@
+p
+{
+	background-color: orange;color:white;
+	font-family: arial;
+	font-size: 22pt;
+}
+p.fun
+{
+	text-align: center;
+	background-color: transparent;
+	color:#9900cc
+}
+
+a:hover
+{
+	background-color: white; color: orange;
+}
+body
+{
+	background-image: url(stars.jpg); background-size: 100%;
+	background-repeat: no-repeat; background-attachment:fixed;
+	background-color: lightblue;
+}
+a
+{
+	color:white;
+}
+h1
+{
+	color: aqua;
+}
+
+
