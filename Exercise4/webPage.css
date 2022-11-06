@@ -1,0 +1,33 @@
+p
+{
+  color: orange;
+  font-size: 22pt;
+  font-family: serif;
+  border-style: solid;
+  border-color: darkblue;
+  border-width: 8px;
+  background-color:white;
+}
+body
+{
+  	background-color: lightblue;
+}
+
+h1
+{
+  color: blue;
+  text-align: center;
+
+}
+button
+{
+	text-align: center;
+}
+div
+{
+	text-align: center;
+}
+
+.vertical-center {
+  position: center;
+}
